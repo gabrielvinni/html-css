@@ -1,0 +1,25 @@
+body{
+    background: rgb(48, 48, 48);
+    color: white;
+    font: 13pt arial;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    text-align: center;
+}
+
+footer{
+    padding: 10px;
+}
+
+a{
+    color: white;
+}
+
+img#voltar{
+    padding: 3%;
+}

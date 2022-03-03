@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício pratico de Caixas</title>
+    <style>
+        body{
+            font: normal 1em Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            border: 2px solid black;
+            margin: 7px;
+        }
+
+        nav{
+            text-align: center;
+            border: 2px solid black;
+            margin: 7px;
+            margin-top: 40px;
+        }
+
+        main{
+            border: 2px solid black;
+            margin: 7px;
+        }
+
+        section{
+            border: 2px solid black;
+            margin: 7px;
+        }
+
+        article{
+            border: 2px solid black;
+            margin: 7px;
+            text-align: center;
+        }
+        .artigo{
+            height: 300px;
+            width: 600px;
+        }
+
+        #as1{
+            height: 240px;
+            width: 200px;
+            display: inline;
+        }
+
+        aside{
+            border: 2px solid black;
+            margin: 7px;
+            text-align: center;
+        }
+
+        footer{
+            border: 2px solid black;
+            margin: 7px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>HEADER</p>
+        <nav>
+            <p>NAV</p>
+        </nav>
+    </header>
+    <main>
+        <p>MAIN</p>
+        <section>
+            <p>SECTION</p>
+
+            <article class="artigo">
+                <p>ARTICLE</p>
+            </article>
+
+            <article class="artigo">
+                <p>ARTICLE</p>
+                <aside id="as1">
+                    <p>ASIDE</p>
+                </aside>
+            </article>
+            <aside id="as2">
+                <p>ASIDE</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>FOOTER</p>
+    </footer>
+</body>
+</html>
