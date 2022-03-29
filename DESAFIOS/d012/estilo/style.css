@@ -1,5 +1,70 @@
 @charset "UTF-8";
 
-body{
-    
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background: darkgray;
+}
+
+header {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.6em;
+}
+
+section.normal {
+    background: white;
+}
+
+section.normal > p {
+    padding-left: 10px;
+}
+
+section.imagem {
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.219);
+    max-width: max-content;
+    padding: 10px;
+}
+
+footer {
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
