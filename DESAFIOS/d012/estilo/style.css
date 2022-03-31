@@ -73,7 +73,8 @@ section.normal {
 }
 
 section.normal > p {
-    padding-bottom: 2.5em;
+    padding-bottom: 3em;
+    padding-top: 3em;
 }
 
 section.imagem {
