@@ -18,16 +18,10 @@ header {
 }
 
 header > h1 {
-    font-size: 1.6em;
-    margin: 0px 5px 5px 5px;
-    padding: 5px;
+    font-size: 1.4em;
     font-weight: 500;
     padding: 10px;
-    display: inline;
-    position: absolute;
-    top: -6px;
-    left: 47%;
-    transform: translate(-50%);
+    text-align: center;
 }
 
 menu {
@@ -49,7 +43,7 @@ menu > ul > li > a {
 }
 
 menu a:hover {
-    background: #BE160C;
+    background: #a0130b;
 }
 
 #icone {
@@ -59,6 +53,7 @@ menu a:hover {
     background-color: #570b07;
     cursor: pointer;
     border-radius: 50px;
+    position: absolute;
 }
 
 #icone:hover {
@@ -69,7 +64,6 @@ menu a:hover {
 
 main {
     width: 90vw;
-    text-align: justify;
     margin: auto;
     padding-top: 20px;
 }
