@@ -4,18 +4,20 @@
     box-sizing: border-box;
 }
 
+
+
 .container {
+    height: 400px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .child {
+    width: 10%;
     height: 200px;
-    width: 50%;
     background-color: aquamarine;
     border: 1px solid black;
-
-    text-align: center;
-    padding-top: 80px;
 }
